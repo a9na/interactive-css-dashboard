@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive CSS Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/widgets.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive CSS Dashboard</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Settings</a>
+            <a href="#">Profile</a>
+            <a href="#">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section class="dashboard">
+            <div class="widget widget-chart">
+                <h2>Sales Data</h2>
+                <div class="chart">
+                    <div class="bar" style="height: 70%"></div>
+                    <div class="bar" style="height: 50%"></div>
+                    <div class="bar" style="height: 80%"></div>
+                    <div class="bar" style="height: 60%"></div>
+                    <div class="bar" style="height: 90%"></div>
+                </div>
+            </div>
+            <div class="widget widget-toggle">
+                <h2>Toggle Switch</h2>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="widget widget-notifications">
+                <h2>Notifications</h2>
+                <div class="notification">You have 3 new messages</div>
+                <div class="notification">Server downtime scheduled</div>
+                <div class="notification">New user registration</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Interactive CSS Dashboard</p>
+    </footer>
+</body>
+</html>
